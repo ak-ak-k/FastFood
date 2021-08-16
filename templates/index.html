@@ -1,0 +1,169 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock title %} {% block body %}
+
+
+<main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <a href="/burger">
+
+                    <img src="/static/img/burger.jfif" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Meat or Veggie, all burgers are beautiful...</h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <a href="/noodles">
+                    <img src="/static/img/noodle.jfif" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Noodles are not only amusing but delicious...</h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="/pizza">
+                    <img src="/static/img/pizza.jfif" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>“I think of dieting, then I eat pizza.”</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="/noodles">
+                    <img src="/static/img/content/noodles.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+
+                <h2>Check Out! </h2>
+
+                <p><a class="btn btn-warning" href="/noodles">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <a href="/pizza">
+                    <img src="/static/img/content/piiza.jfif" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+
+
+                <h2>Check Out! </h2>
+
+                <p><a class="btn btn-warning" href="/pizza">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <a href="/burger">
+                    <img src="/static/img/content/burger.jfif" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+
+                <h2>Check Out! </h2>
+
+                <p><a class="btn btn-warning" href="/burger">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><b>it’s Burger O’ Clock.</b><br>
+                    <span class="text-muted" style="margin: 85px;">It’ll blow your mind.</span></h2>
+
+            </div>
+            <div class="col-md-5">
+                <a href="/burger">
+                    <img src="/static/img/fiva/burger.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+                <title>Placeholder</title>
+
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading" style="margin: 40px;"><b>All the dreamers in all the world are dizzy in the noodle!</b><br>
+                    <span class="text-muted" style="margin: 85px;">See for yourself.</span></h2>
+
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="/noodles">
+                    <img src="/static/img/fiva/noodles.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+                <title>Placeholder</title>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><b>"Pizza is not a 'trend' it's a way of life"</b>
+                    <hr><span class="text-muted" style="margin: 60px;">Checkmate.</span></h2>
+
+            </div>
+            <div class="col-md-5">
+                <a href="/pizza">
+                    <img src="/static/img/fiva/pizza.png" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </a>
+                <title>Placeholder</title>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div>
+    <!-- /.container -->
+
+
+    {% endblock body %}
